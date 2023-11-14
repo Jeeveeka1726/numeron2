@@ -71,7 +71,7 @@ plus.onclick = () => {
     randomise();
     resetTime(timerId);
   } else {
-    location.href = "gameover.html?score=" + score;
+    window.location = "gameover.html?score=" + score;
   }
 };
 
@@ -81,7 +81,7 @@ minus.onclick = () => {
     randomise();
     resetTime(timerId);
   } else {
-    location.href = "gameover.html?score=" + score;
+    window.location = "gameover.html?score=" + score;
   }
 };
 
@@ -91,7 +91,7 @@ mul.onclick = () => {
     randomise();
     resetTime(timerId);
   } else {
-    location.href = "gameover.html?score=" + score;
+    window.location = "gameover.html?score=" + score;
   }
 };
 
@@ -101,7 +101,7 @@ divide.onclick = () => {
     randomise();
     resetTime(timerId);
   } else {
-    location.href = "gameover.html?score=" + score;
+    window.location = "gameover.html?score=" + score;
   }
 };
 
@@ -111,7 +111,7 @@ modulus.onclick = () => {
     randomise();
     resetTime(timerId);
   } else {
-    location.href = "gameover.html?score=" + score;
+    window.location = "gameover.html?score=" + score;
   }
 };
 
